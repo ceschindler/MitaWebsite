@@ -62,6 +62,21 @@
 	* You can confirm this by looking in the folder and seeing the newly created project with all of the contents of the repo
 	![Confirmation](TutorialPictures/confirmation.PNG)
 * Woot! You did it!
+## Basic git commands and how they work
+* `git status` - Shows you a status update on what has changed since your last commit
+	![Git Status](TutorialPictures/gitStatus.PNG)
+* `git add` - Adds files that you want to commit to your repository
+* `git commit` - Commits your work to a log. This allows you to go back to any point you have made a commit
+	![Git Commit](TutorialPictures/gitCommit.PNG)
+* `git log` - Shows you a history of every commit that's been made and a message related to what that commit did
+* `git checkout <commit number / branch name>` - This takes you back to a previous commit if you specify a commit number. Also lets you check out a different branch if you specify a branch name
+	![Git Checkout](TutorialPictures/gitCheckout.PNG)
+* `git branch` - Allows you to create a new branch to work off of
+* `git push` - Pushes your local work up to the repository on GitHub
+	![Git Push](TutorialPictures/gitPush.PNG)
+* `git fetch` - Compares your local workspace to the "Master" repository and informs you of changes that you don't have
+* `git pull` - Pulls down changes from the "Master" repository to your local workspace
+	![Git Pull](TutorialPictures/gitPull.PNG)
 ## Adding Remotes to your Workspace
 * Ideally, you now have a fork of a project and that project is cloned into your local workspace, so how do you talk between these things?
 	* You will set up a remote to your forked version, and another remote to the original version
